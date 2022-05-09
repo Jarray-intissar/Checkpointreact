@@ -1,0 +1,55 @@
+.container{
+    background-image: url('nabeul.jpg');
+    background-size: cover;
+
+    width: 800%;
+    margin: 10px auto;
+    padding: 0 auto;
+
+}
+h1{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    from {left: 10px;}
+    to {left: 400px;}
+  }
+
+.fom{
+    width: px;
+    margin: 30px  30px;
+    padding: 10px  10px ;
+    border-radius: 5% 5%;
+    display:block;
+    
+}
+.btn{
+   
+    width: 20%;
+    margin: 50px;
+    padding: 10px;
+    align-items: center;
+}
+.labeel{
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(10, 7, 7);
+}
+.lbb{
+    width: 50%;
+}
+.Gen{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(10, 7, 7);
+}
+.sel{
+    width: 20%;
+}
